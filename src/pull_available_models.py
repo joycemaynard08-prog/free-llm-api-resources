@@ -875,6 +875,16 @@ def main():
             model_list_markdown += f"- {model['name']}\n"
     model_list_markdown += "\n"
 
+    # --- GitHub Models ---
+    model_list_markdown += (
+        "### [GitHub Models](https://docs.github.com/en/github-models)\n\n"
+    )
+    model_list_markdown += "Requires a GitHub account. No credit card required.\n\n"
+    model_list_markdown += "Rate limits scale with your GitHub Copilot plan (Free/Pro/Pro+/Business/Enterprise); free tier limits are shown below and vary per model.\n\n"
+    model_list_markdown += "**Limits:** Low tier: 15 requests/minute, 150 requests/day. High tier: 10 requests/minute, 50 requests/day, 8,000 input/4,000 output tokens per request.\n\n"
+    model_list_markdown += "- [Various OpenAI, Meta, Mistral, DeepSeek, Cohere, and Microsoft models](https://github.com/marketplace/models)\n"
+    model_list_markdown += "\n"
+
     # --- Google Cloud Vertex AI ---
     vertex_llama_models = []
     vertex_gemini_models = []

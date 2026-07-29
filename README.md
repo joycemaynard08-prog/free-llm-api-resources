@@ -25,6 +25,7 @@ This lists various services that provide free access or credits towards API-base
   - [Groq](#groq)
   - [Cohere](#cohere)
   - [Cloudflare Workers AI](#cloudflare-workers-ai)
+  - [GitHub Models](#github-models)
 - [Providers with trial credits](#providers-with-trial-credits)
   - [Fireworks](#fireworks)
   - [Baseten](#baseten)
@@ -250,6 +251,15 @@ Models share a common monthly quota.
 - Qwen 2.5 Coder 32B Instruct
 - Qwen QwQ 32B
 
+### [GitHub Models](https://docs.github.com/en/github-models)
+
+Requires a GitHub account. No credit card required.
+
+Rate limits scale with your GitHub Copilot plan (Free/Pro/Pro+/Business/Enterprise); free tier limits are shown below and vary per model.
+
+**Limits:** Low tier: 15 requests/minute, 150 requests/day. High tier: 10 requests/minute, 50 requests/day, 8,000 input/4,000 output tokens per request.
+
+- [Various OpenAI, Meta, Mistral, DeepSeek, Cohere, and Microsoft models](https://github.com/marketplace/models)
 
 
 ## Providers with trial credits
